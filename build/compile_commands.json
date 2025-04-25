@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE -D__WXMSW__ @CMakeFiles/LeitorDeRedesNeurais.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\LeitorDeRedesNeurais.dir\\src\\app\\app.cpp.obj -c \"C:\\Users\\Gabriel Menegasso\\Desktop\\gabriel\\programas\\trabalhos\\mlpersonalizado\\t1-leitor\\src\\app\\app.cpp\"",
+  "file": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/src/app/app.cpp",
+  "output": "CMakeFiles/LeitorDeRedesNeurais.dir/src/app/app.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE -D__WXMSW__ @CMakeFiles/LeitorDeRedesNeurais.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\LeitorDeRedesNeurais.dir\\src\\core\\InputProcessor.cpp.obj -c \"C:\\Users\\Gabriel Menegasso\\Desktop\\gabriel\\programas\\trabalhos\\mlpersonalizado\\t1-leitor\\src\\core\\InputProcessor.cpp\"",
+  "file": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/src/core/InputProcessor.cpp",
+  "output": "CMakeFiles/LeitorDeRedesNeurais.dir/src/core/InputProcessor.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE -D__WXMSW__ @CMakeFiles/LeitorDeRedesNeurais.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\LeitorDeRedesNeurais.dir\\src\\main.cpp.obj -c \"C:\\Users\\Gabriel Menegasso\\Desktop\\gabriel\\programas\\trabalhos\\mlpersonalizado\\t1-leitor\\src\\main.cpp\"",
+  "file": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/src/main.cpp",
+  "output": "CMakeFiles/LeitorDeRedesNeurais.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE -D__WXMSW__ @CMakeFiles/LeitorDeRedesNeurais.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\LeitorDeRedesNeurais.dir\\src\\ui\\InputPanel.cpp.obj -c \"C:\\Users\\Gabriel Menegasso\\Desktop\\gabriel\\programas\\trabalhos\\mlpersonalizado\\t1-leitor\\src\\ui\\InputPanel.cpp\"",
+  "file": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/src/ui/InputPanel.cpp",
+  "output": "CMakeFiles/LeitorDeRedesNeurais.dir/src/ui/InputPanel.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DUNICODE -D_UNICODE -D__WXMSW__ @CMakeFiles/LeitorDeRedesNeurais.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\LeitorDeRedesNeurais.dir\\src\\ui\\MainFrame.cpp.obj -c \"C:\\Users\\Gabriel Menegasso\\Desktop\\gabriel\\programas\\trabalhos\\mlpersonalizado\\t1-leitor\\src\\ui\\MainFrame.cpp\"",
+  "file": "C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/src/ui/MainFrame.cpp",
+  "output": "CMakeFiles/LeitorDeRedesNeurais.dir/src/ui/MainFrame.cpp.obj"
+}
+]

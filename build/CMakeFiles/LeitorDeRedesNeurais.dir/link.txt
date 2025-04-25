@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\LeitorDeRedesNeurais.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\LeitorDeRedesNeurais.dir/objects.a @CMakeFiles\LeitorDeRedesNeurais.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LeitorDeRedesNeurais.dir/objects.a -Wl,--no-whole-archive -o LeitorDeRedesNeurais.exe -Wl,--out-implib,libLeitorDeRedesNeurais.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LeitorDeRedesNeurais.dir\linkLibs.rsp

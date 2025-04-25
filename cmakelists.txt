@@ -1,0 +1,62 @@
+cmake_minimum_required(VERSION 3.10)
+project(LeitorDeRedesNeurais)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Caminhos explícitos para o wxWidgets no MSYS2
+set(wxWidgets_ROOT_DIR "C:/msys64/mingw64")
+set(wxWidgets_LIB_DIR "C:/msys64/mingw64/lib")
+set(wxWidgets_INCLUDE_DIRS "C:/msys64/mingw64/include/wx-3.0" "C:/msys64/mingw64/lib/wx/include/msw-unicode-3.0")
+set(wxWidgets_LIBRARIES
+    "C:/msys64/mingw64/lib/libwx_mswu-3.0.dll.a"
+    "C:/msys64/mingw64/lib/libwx_baseu-3.0.dll.a"
+)
+
+# Definições para wxWidgets
+add_definitions(-D__WXMSW__ -DUNICODE -D_UNICODE)
+
+# Arquivos fonte
+file(GLOB SOURCES 
+    src/*.cpp 
+    src/app/*.cpp 
+    src/ui/*.cpp 
+    src/core/*.cpp
+)
+
+# Headers
+file(GLOB HEADERS 
+    src/*.h 
+    src/app/*.h 
+    src/ui/*.h 
+    src/core/*.h
+)
+
+# Definir o executável
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+
+# Incluir diretórios
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
+    ${wxWidgets_INCLUDE_DIRS}
+)
+
+# Vincular bibliotecas wxWidgets
+target_link_libraries(${PROJECT_NAME} PRIVATE ${wxWidgets_LIBRARIES})
+
+# Adicionar bibliotecas do sistema que o wxWidgets precisa no Windows
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+    comctl32
+    ole32
+    oleaut32
+    uuid
+    rpcrt4
+    advapi32
+    wsock32
+    wininet
+    gdi32
+    comdlg32
+)
+
+message(STATUS "wxWidgets include dirs: ${wxWidgets_INCLUDE_DIRS}")
+message(STATUS "wxWidgets libraries: ${wxWidgets_LIBRARIES}")

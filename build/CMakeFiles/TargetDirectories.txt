@@ -1,0 +1,3 @@
+C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build/CMakeFiles/LeitorDeRedesNeurais.dir
+C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build/CMakeFiles/edit_cache.dir
+C:/Users/Gabriel Menegasso/Desktop/gabriel/programas/trabalhos/mlpersonalizado/t1-leitor/build/CMakeFiles/rebuild_cache.dir
